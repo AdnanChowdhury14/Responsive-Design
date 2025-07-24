@@ -28,6 +28,29 @@
   font-size: 1.4rem;
 }
 
+/* flower and plant section style */
+.details-section {
+  display: flex;
+  max-width: 1140px;
+  max-height: 500px;
+  gap: 40px;
+  margin: 150px 0px;
+  justify-content: space-between;
+}
+.shop-image > img {
+  max-height: 500px;
+  width: auto;
+}
+.details-title {
+  font-size: 3.2rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.list-points > li {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
 /* mobile responsiveness */
 @media screen and (max-width: 576px) {
   .banner {
