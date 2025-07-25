@@ -102,10 +102,25 @@ body {
   margin: 150px auto;
   justify-content: space-between;
 }
+.shop-image {
+  position: relative;
+  display: inline-block;
+}
+
 .shop-image > img {
   max-height: 500px;
   width: auto;
+  display: block;
 }
+.trusted-badge {
+  position: absolute;
+  top: -200px;
+  right: -180px;
+  width: 50px;
+  height: auto;
+  z-index: 2;
+}
+
 .details-title {
   font-size: 3.2rem;
   font-weight: 800;
@@ -192,7 +207,7 @@ footer {
 }
 /* subscribe section style */
 .subscribe-section {
-  background-image: url("/assets/news-letter-bg.png");
+  background-image: url("../assets/news-letter-bg.png");
   background-size: cover;
   background-position: center;
   padding: 100px 20px;
@@ -383,5 +398,10 @@ footer {
   .footer-links {
     flex-direction: column;
     gap: 0px;
+  }
+
+  /* hide badge */
+  .trusted-badge {
+    display: none;
   }
 }
